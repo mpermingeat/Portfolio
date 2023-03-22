@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="flex w-full flex-row justify-evenly">
+    <div className="flex w-screen backdrop-blur-md bg-primaryDark/30 fixed flex-row justify-evenly">
       <div className="flex w-2/3 text-primaryLight ml-20 items-center">
         <span className="text-primaryLight items-center p-4">Logo</span>
       </div>
