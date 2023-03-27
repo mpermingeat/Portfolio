@@ -6,7 +6,7 @@ function Landing() {
     <div className=" flex flex-col bg-primaryDark  text-primaryLight justify-center items-center  ">
       <div className="w-3/4">
         <h1 className=" text-primaryLight  font-bold text-8xl mt-20 mb-10">
-          I'm Maximiliano Permingeat Full Stack Developer.
+          Soy Maximiliano Permingeat Full Stack Developer.
         </h1>
         <div className="flex h-full py-5 justify-around">
           <div className="w-1/2 flex flex-col ">
@@ -45,7 +45,7 @@ function Landing() {
       </div>
       <div className="w-4/5 ">
         <h2 className=" text-primaryLight  font-bold text-6xl mt-20">
-          Proyects
+          Proyectos
         </h2>
         <CardContainer />
       </div>
