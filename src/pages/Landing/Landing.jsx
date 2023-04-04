@@ -1,12 +1,13 @@
 import React from "react";
 import CardContainer from "../../components/CardContainer/CardContainer";
+import perfil from "../../assets/img/WhatsApp Image 2023-03-25 at 21.48.01.png";
 
 function Landing() {
   return (
     <div className=" flex flex-col bg-primaryDark  text-primaryLight justify-center items-center  ">
       <div className="w-3/4">
         <h1 className=" text-primaryLight  font-bold text-8xl mt-20 mb-10">
-          Soy Maximiliano Permingeat Full Stack Developer.
+          I'm Maximiliano Permingeat Full Stack Developer.
         </h1>
         <div className="flex h-full py-5 justify-around">
           <div className="w-1/2 flex flex-col ">
@@ -35,17 +36,13 @@ function Landing() {
             </span>
           </div>
           <div className="w-1/2 flex justify-center items-center">
-            <img
-              className="rounded-3xl "
-              src="https://via.placeholder.com/400x600"
-              alt=""
-            />
+            <img className="rounded-3xl  h-[600px]" src={perfil} alt="" />
           </div>
         </div>
       </div>
       <div className="w-4/5 ">
         <h2 className=" text-primaryLight  font-bold text-6xl mt-20">
-          Proyectos
+          Proyects
         </h2>
         <CardContainer />
       </div>
